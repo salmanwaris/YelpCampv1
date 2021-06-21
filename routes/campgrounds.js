@@ -62,4 +62,4 @@ router.delete('/:id', isLoggedIn, isAuthor, catchAsync(async (req, res) => {
     res.redirect('/campgrounds');
 }));
 
-module.exports = router;
+module.exports = router; 
